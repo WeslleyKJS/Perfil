@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container{
+    width: 440px;
+    height: 760px;
+    border-radius: 30px;
+    background-color:hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+body{
+    background-color:hsl(0, 0%, 8%)
+}
+
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+}
+
+img{
+    border-radius: 20vh;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 150px;
+    transform: translateY(-50px);
+}
+
+a{
+    transform: translateY(-30px);
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 400px;
+    margin-left: 10px;
+    background-color: var(--Grey-800);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: var(--Green);
+
+}
+
+#cidade{
+    color: greenyellow;
+    font-family: Inter;
+    transform: translateY(-60px);
+}
+
+#nome{
+    transform: translateY(-50px);
+    font-family: Inter;
+}
+
+#text{
+    transform: translateY(-70px);
+    font-family: Inter;
+    font-size: 16px;
+}
